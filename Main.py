@@ -30,7 +30,7 @@ ydl_opts = {
         'preferredquality': '320',
     }],
     'progress_hooks': [my_hook],
-    'outtmpl' : 'D://Music/DOWNLOADS/Sets/%(title)s.%(ext)s'
+    'outtmpl' : 'Z://Music/Sets/%(title)s.%(ext)s'
 }
 print("Inserisci link da scaricare")
 link = input()
